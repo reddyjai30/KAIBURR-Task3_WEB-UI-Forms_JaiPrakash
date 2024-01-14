@@ -42,7 +42,7 @@ To start the application, run:
 ```bash
 npm start
 ```
-<img width="1280" alt="Screenshot 2024-01-14 at 5 51 47 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/db44a787-3b45-4de2-af90-6ad3e2c24cb4">
+<img width="1000" alt="Screenshot 2024-01-14 at 5 51 47 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/db44a787-3b45-4de2-af90-6ad3e2c24cb4">
 
 The application will be available at `http://localhost:3000`
 
@@ -122,7 +122,7 @@ const App = () => {
 
 export default App;
 ```
-<img width="1280" alt="Screenshot 2024-01-14 at 5 53 56 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/9b0ac429-7f2d-40c5-822c-6773adc92027">
+<img width="1000" alt="Screenshot 2024-01-14 at 5 53 56 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/9b0ac429-7f2d-40c5-822c-6773adc92027">
 
 ### TaskList.js
 Displays a list of tasks.
@@ -218,7 +218,7 @@ const TaskList = () => {
 
 export default TaskList;
 ```
-<img width="1280" alt="Screenshot 2024-01-14 at 5 55 11 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/621c21b2-9278-40ca-b026-b74d3a3d64c6">
+<img width="1000" alt="Screenshot 2024-01-14 at 5 55 11 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/621c21b2-9278-40ca-b026-b74d3a3d64c6">
 
 ### TaskForm.js
 Allows users to create new tasks.
@@ -321,7 +321,7 @@ const TaskForm = () => {
 
 export default TaskForm;
 ```
-<img width="1280" alt="Screenshot 2024-01-14 at 6 26 31 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/7941d7dc-d925-444b-aea0-4962e88b60a3">
+<img width="1000" alt="Screenshot 2024-01-14 at 6 26 31 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/7941d7dc-d925-444b-aea0-4962e88b60a3">
 
 ### SearchByName Component (SearchByName.js)
 Enables searching for tasks based on their name.
@@ -396,7 +396,7 @@ const SearchByName = () => {
 
 export default SearchByName;
 ```
-<img width="1280" alt="Screenshot 2024-01-14 at 6 28 43 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/cfc163ff-af6c-4687-88f4-8e0e66cecb1c">
+<img width="1000" alt="Screenshot 2024-01-14 at 6 28 43 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/cfc163ff-af6c-4687-88f4-8e0e66cecb1c">
 
 ### SearchByAssignee Component (SearchByAssignee.js)
 Facilitates searching for tasks by the assignee.
@@ -471,7 +471,34 @@ const SearchByAssignee = () => {
 
 export default SearchByAssignee;
 ```
-<img width="1280" alt="Screenshot 2024-01-14 at 6 29 34 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/f6e750f5-68e7-420e-87db-136d8dc7cdd2">
+<img width="1000" alt="Screenshot 2024-01-14 at 6 29 34 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/f6e750f5-68e7-420e-87db-136d8dc7cdd2">
 
+### HomePage Component (HomePage.js)
+Displays the home page with a brief description of the application.
+```bash
+// HomePage.js
+import React from 'react';
+import { Paper, Typography, Box } from '@mui/material';
 
+const HomePage = () => {
+  return (
+    <Paper style={{ padding: 20, marginTop: 20 }}>
+      <Box textAlign="center">
+        <Typography variant="h4">Welcome to the Kaiburr Task Management System</Typography>
+        <Typography variant="subtitle1" style={{ marginTop: 20 }}>
+          This application provides an interface to manage and track tasks efficiently.
+          Users can create, view, search, and delete tasks, as well as assign tasks to team members.
+          It's designed to streamline the process of task management for small to medium-sized teams.
+        </Typography>
+      </Box>
+    </Paper>
+  );
+};
+
+export default HomePage;
+```
+<img width="1000" alt="Screenshot 2024-01-14 at 6 46 13 AM" src="https://github.com/reddyjai30/KAIBURR-Task3_WEB-UI-Forms_JaiPrakash/assets/47852931/abe73053-58b3-42b4-8387-7bef433860d3">
+
+# Conclusion
+The development process of this Task Management Application served as an extensive exercise in full-stack web development, encapsulating both front-end and back-end integrations. It illustrated key concepts, best practices, and the utility of popular tools and libraries in building modern web applications. This application serves as a testament to the power of combining React's dynamic capabilities with Material-UI's design efficiency, all while maintaining a clean and user-friendly interface.
 
